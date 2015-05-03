@@ -1,0 +1,37 @@
+{
+  "name": "browserify-shim-test-cases.git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "browser": {
+    "a": "./tests/data/a.js",
+    "b": "./tests/data/b.js"
+  },
+
+  "browserify-shim": {
+    "b": {
+      "depends": "a"
+    }
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dizel3d/browserify-shim-test-cases.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dizel3d/browserify-shim-test-cases/issues"
+  },
+  "homepage": "https://github.com/dizel3d/browserify-shim-test-cases",
+  "devDependencies": {
+    "browserify": "^10.0.0",
+    "browserify-shim": "^3.8.6",
+    "jasmine-node": "^1.14.5",
+    "stream": "0.0.2"
+  }
+}
