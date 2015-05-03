@@ -1,7 +1,7 @@
 var browserify = require('browserify');
 var stringWriter = require('./helpers').stringWriter;
 
-describe('browserfiy should make bundles a, b', function() {
+describe('browserfiy should make bundle b', function() {
     var bundles = {};
     var error;
 
